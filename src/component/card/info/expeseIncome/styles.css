@@ -14,6 +14,12 @@
     padding: 1rem;
 }
 
+.expense-income-content-data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
 .expense-income-content-title{
     margin-bottom: 1rem;
     text-align: left;
@@ -21,15 +27,40 @@
     font-weight: 600;
 }
 
-.expense-income-content-item{
+.expense-income-content-item-top{
     display: flex;
-    flex-direction: row;
+    flex: 1;
     font-weight: 600;
 }
 
-.expense-income-content-item-text{
+.expense-income-content-item-center{
+    display: flex;
+    flex: 1;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.expense-income-content-item-bottom{
+    display: flex;
+    flex: 1;
+    font-weight: 500;
+    font-size: 10px;
+    color: grey
+}
+
+.expense-income-content-item-text-left{
     flex: 1;
     text-align: left;
+}
+
+.expense-income-content-item-text-center{
+    flex: 1;
+    text-align: center;
+}
+
+.expense-income-content-item-text-right{
+    flex: 1;
+    text-align: right;
 }
 
 
@@ -54,14 +85,14 @@
 }
 
 .expense-income-content-badge-expense{
-    background: blueviolet;
+    background: #505edc;
     padding: 1rem;
     width: 75%;
     border-radius: 0.25rem;
 }
 
 .expense-income-content-badge-income{
-    background: orange;
+    background: #FEA80E;
     padding: 1rem;
     width: 25%;
     border-radius: 0.25rem;

@@ -28,22 +28,35 @@
 .spending-content-data-item{
     flex: 1;
     display: flex;
+    gap: 0.5rem;
+}
+
+.spending-content-data-item-text{
+    flex: 1;
+    display: flex;
     flex-direction: column;
 }
 
 .spending-content-data-item-title{
+    display: flex;
+    flex: 1;
     font-size: 16px;
     font-weight: 600;
+    bottom: 0;
+    align-items: flex-end;
 }
 
 .spending-content-data-item-date{
+    flex: 1;
+    display: flex;
     font-size: 12px;
     color: #e0e0e0;
+    align-items: flex-start;
 }
 
 .spending-option{
     margin-top: 1rem;
     text-align: center;
     font-size: 14px;
-    color: turquoise;
+    color: violet;
 }

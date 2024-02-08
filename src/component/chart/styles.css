@@ -46,14 +46,14 @@
     flex: 1;
     padding: 0.5rem;
     align-self: flex-end;
-    background: blue;
+    background: #515CE8;
 }
 
 .chart-content-data-right{
     flex: 1;
     align-self: flex-end;
     padding: 0.5rem;
-    background: lightblue;
+    background: #C8CAFF;
 }
 
 .chart-content-data-legend{

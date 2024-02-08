@@ -22,6 +22,9 @@
     font-style: 500;
 }
 
+.banner-content-text-container{
+    display: flex;
+}
 .banner-content-text-subtitle{
     flex:1;
     font-size: 14px;
@@ -29,5 +32,6 @@
 }
 
 .banner-content-icon{
-    flex: 1;
+    flex: 0;
+
 }
