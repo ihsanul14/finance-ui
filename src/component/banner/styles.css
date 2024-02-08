@@ -1,8 +1,9 @@
 .banner{
-    padding: 1rem;
     display: flex;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
 .banner-content{
@@ -15,12 +16,18 @@
     flex-direction: column;
 }
 
-.banner-content-icon{
-    flex: 0;
+.banner-content-text-title{
+    flex:1;
+    font-size: 18px;
+    font-style: 500;
 }
 
-
-.banner-content-title{
+.banner-content-text-subtitle{
     flex:1;
-    margin-bottom: 2rem;
+    font-size: 14px;
+    font-style: 500;
+}
+
+.banner-content-icon{
+    flex: 1;
 }

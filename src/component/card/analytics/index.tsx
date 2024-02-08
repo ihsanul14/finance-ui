@@ -5,15 +5,40 @@ const Analytics = () => {
     <>
     <div className='analytics'>
         <div className='analytics-content'>
-          <div>Analytics</div>
-          <div>
-            <div>CrownIcon</div>
-            <div> 
-              <div>Need more but-items?</div>
-              <div>Update your account to premim to get more but-items</div>
+          <div className='analytics-content-header'>
+            <div className='analytics-content-title'>Analytics</div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 512">
+                <path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/>
+              </svg>
             </div>
           </div>
-          <div>Get now</div>
+          <div className='analytics-content-data'>
+            <div className='analytics-content-chart'>
+              <div className='analytics-content-chart-blue'></div>
+              <div className='analytics-content-chart-orange'></div>
+              <div className='analytics-content-chart-red'></div>
+              <div className='analytics-content-chart-grey'></div>
+            </div>
+            <div className='analytics-content-chart-info'>
+                <div>90%</div>
+                <div>Done</div>
+              </div>
+            <div className='analytics-content-chart-legend'>
+              <div className='analytics-content-chart-legend-item'>
+                <div className='analytics-content-chart-legend-item-bullet' style={{background:'blue'}}></div>
+                <div>Done</div>
+              </div>
+              <div className='analytics-content-chart-legend-item'>
+              <div className='analytics-content-chart-legend-item-bullet' style={{background:'orange'}}></div>
+                <div>In progress</div>
+              </div>
+              <div className='analytics-content-chart-legend-item'>
+              <div className='analytics-content-chart-legend-item-bullet' style={{background:'red'}}></div>
+                <div>To do</div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>  
     </>

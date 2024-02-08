@@ -1,5 +1,5 @@
 .expense-income{
-    border: 1px #4f4f4f solid;
+    border: 1px #e0e0e0 solid;
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
@@ -17,11 +17,14 @@
 .expense-income-content-title{
     margin-bottom: 1rem;
     text-align: left;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .expense-income-content-item{
     display: flex;
     flex-direction: row;
+    font-weight: 600;
 }
 
 .expense-income-content-item-text{

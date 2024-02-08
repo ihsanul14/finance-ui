@@ -41,7 +41,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='home-component-item'>
+            <div className='home-component-item' style={{flex:0}}>
                 <Info />
             </div>
             
