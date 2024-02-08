@@ -1,0 +1,14 @@
+.info{
+    padding: 1rem;
+    background: white;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 100vh;
+}
+
+.info-content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

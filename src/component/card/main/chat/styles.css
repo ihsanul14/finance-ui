@@ -1,0 +1,13 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    font-size: 12px;
+}
+
+.chat-content{
+    flex:1;
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}

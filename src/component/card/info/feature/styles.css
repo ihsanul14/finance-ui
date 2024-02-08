@@ -1,0 +1,15 @@
+.feature{
+    border: 1px #4f4f4f solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 0.1rem;
+    font-size: 12px;
+}
+
+.feature-content{
+    flex:1;
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}

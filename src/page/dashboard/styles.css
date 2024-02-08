@@ -1,0 +1,33 @@
+.home{
+    background: lavender;
+    display: flex;
+    gap: 2rem;
+    border-radius: 1rem;
+}
+
+.home-sidebar{
+    flex: 0;
+}
+
+.home-component{
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+}
+
+.home-component-item{
+    flex: 1;
+}
+
+.home-component-item-detail{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.home-component-item-detail-content{
+    max-width: 45%;
+    margin-bottom: 1rem;
+}

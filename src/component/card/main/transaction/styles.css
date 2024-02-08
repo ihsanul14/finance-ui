@@ -1,0 +1,21 @@
+.transaction{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    font-size: 12px;
+}
+
+.transaction-content{
+    flex:1;
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.transaction-content-box{
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-height: 4rem;
+    overflow-y: auto;
+}

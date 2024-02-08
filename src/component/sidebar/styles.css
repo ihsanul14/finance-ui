@@ -1,0 +1,40 @@
+.sidebar{
+    max-width: 24px;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.sidebar-content{
+    flex:1;
+}
+
+.sidebar-content-title{
+    flex:1;
+    margin-bottom: 2rem;
+}
+
+.sidebar-content-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.sidebar-content-detail-item{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sidebar-content-detail-item-content{
+    flex:1;
+}
+
+.sidebar-option{
+    background: grey;
+}
