@@ -2,24 +2,27 @@ import {useState} from 'react'
 import Divider from '../../../divider';
 import PhotoIcon1 from '../../../../assets/main/transaction-1.png'
 import PhotoIcon2 from '../../../../assets/main/transaction-2.png'
+import ReceiverIcon from '../../../../assets/main/chat-receiver-photo.png'
 import './styles.css'
 
 const Transaction = () => {
   const [isNewest, setIsNewest] = useState(true)
   const [isOldest, setIsOldest] = useState(false)
-  const data = [
-    {name: "Bessie Cooper", date: "02 july, 2023", amout: "-$3,000", photo: PhotoIcon1},
-    {name: "Guy Hawkins", date: "02 july, 2023", amout: "-$1,970", photo: PhotoIcon2},
-    {name: "Floyd Miles", date: "02 july, 2023", amout: "-$5,000", photo: PhotoIcon1},
-  ]
+  const [data,setData] = useState([
+    {id:1, name: "Bessie Cooper", date: "02 july, 2023", amout: "-$3,000", photo: PhotoIcon1},
+    {id:2, name: "Guy Hawkins", date: "02 july, 2023", amout: "-$1,970", photo: PhotoIcon2},
+    {id:3, name: "Floyd Miles", date: "02 july, 2023", amout: "-$5,000", photo: ReceiverIcon},
+  ])
 
   const handleFilter = (v:number) =>{
     if (v === 0){
       setIsNewest(true)
       setIsOldest(false)
+      setData([...data].sort((a,b) => a.id - b.id))
     }else{
       setIsNewest(false)
       setIsOldest(true)
+      setData([...data].sort((a,b) => b.id - a.id))
     }
   }
 

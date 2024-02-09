@@ -3,7 +3,8 @@
     flex-direction: column;
     border-radius: 1rem;
     font-size: 12px;
-    width: 300px;
+    height: 100%;
+    align-items: center;
 }
 
 .analytics-content{

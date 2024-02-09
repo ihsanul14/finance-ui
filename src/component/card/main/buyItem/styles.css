@@ -3,7 +3,6 @@
     flex-direction: column;
     border-radius: 1rem;
     font-size: 12px;
-    /* width: 400px; */
     height: 252px;
     text-align: left;
 }
@@ -77,14 +76,19 @@
 
 .buy-item-content-checkbox{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.buy-item-content-checkbox-data{
+    display: flex;
     gap: 0.5rem;
 }
 
 .buy-item-content-checkbox-item-box{
+    flex: 1;
     display: flex;
-    width: 45%;
-    background: lavender;
+    background: #F7F6FB;
     border-radius: 4px;
     padding: 0.5rem;
     gap: 1rem;

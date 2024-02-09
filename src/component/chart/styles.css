@@ -12,6 +12,13 @@
     display: flex;
     align-items: center;
     background: #F6F5F8;
+}
+
+.chart-content-filter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F6F5F8;
     width: 80px;
     margin-left: 60%;
     border-radius: 8px;
@@ -28,8 +35,6 @@
 
 .chart-content-detail{
     display: flex;
-    /* height: 100%;
-    width: 100%; */
 }
 
 .chart-content-data{
@@ -88,4 +93,22 @@
 .chart-content-y-axis-item{
     flex: 1;
     font-size: 12px;
+}
+
+.chart-dropdown-filter{
+    flex: 1;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    margin-top: 2rem;
+    padding: 0.3rem 1rem;
+    background: #F6F5F8;
+
+}
+
+.chart-dropdown-filter-item{
+    flex: 1;
+    cursor: default;
 }

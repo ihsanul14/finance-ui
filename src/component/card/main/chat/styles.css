@@ -4,7 +4,7 @@
     border-radius: 1rem;
     font-size: 12px;
     width: 450px;
-    /* height: 300px; */
+    height: 100%;
 }
 
 .chat-content{
@@ -93,7 +93,7 @@
     display: flex;
     margin-right: 1rem;
     padding: 0.25rem;
-    gap: 4px;
+    gap: 1rem;
     width: 70%;
 }
 
@@ -111,6 +111,7 @@
 .chat-content-action-button-item{
     text-align: center;
     color: white;
+    cursor: pointer;
 }
 
 

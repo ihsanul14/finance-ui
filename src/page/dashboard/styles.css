@@ -30,10 +30,18 @@
     display: flex;
     gap: 1rem;
     flex: 1;
-    flex-wrap: wrap;
 }
 
 .home-component-item-detail-content{
-    /* max-width: 45%; */
+    flex: 1;
     margin-bottom: 1rem;
+}
+
+
+.home-component-item-detail-content-end{
+    flex: 1;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }

@@ -24,19 +24,23 @@ const Home = () => {
                     <div className='home-component-item-detail-content'>
                         <Balance/>
                     </div>
-                    <div className='home-component-item-detail-content' style={{alignContent:'flex-end'}}>
+                    <div className='home-component-item-detail-content-end'>
                         <Visa />
                     </div>
+                </div>
+                <div className='home-component-item-detail' style={{gap:'0.25rem'}}>
                     <div className='home-component-item-detail-content'>
                         <BuyItem/>
                     </div>
-                    <div className='home-component-item-detail-content'>
+                    <div className='home-component-item-detail-content-end' style={{flex:0}}>
                         <Chat/>
                     </div>
+                </div>
+                <div className='home-component-item-detail'>
                     <div className='home-component-item-detail-content'>
                         <Transaction />
                     </div>
-                    <div className='home-component-item-detail-content'>
+                    <div className='home-component-item-detail-content-end'>
                         <Analytics />
                     </div>
                 </div>
