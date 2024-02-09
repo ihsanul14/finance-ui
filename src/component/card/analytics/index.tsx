@@ -16,7 +16,12 @@ const Analytics = () => {
           </div>
           <div className='analytics-content-data'>
             <div className='analytics-content-chart'>
-              <img src={GaugeIcon} alt={'gauge'} height={'160px'}/>
+              <div className="analytics-base-chart">
+                <div className="analytics-base-chart-center">
+                  <div className="analytics-base-chart-center-text">90%</div>
+                  <div className="analytics-base-chart-center-text-secondary">Done</div>
+                </div>
+              </div>
             </div>
             <div className='analytics-content-chart-legend'>
               <div className='analytics-content-chart-legend-item'>

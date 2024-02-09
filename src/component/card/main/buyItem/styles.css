@@ -48,7 +48,6 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
-    /* margin-right: 2rem; */
 }
 
 .buy-item-content-info-button{
@@ -56,6 +55,7 @@
     text-align: right;
     font-size: 12px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 

@@ -20,7 +20,7 @@ const Balance = () => {
               </div>
               <Divider />
               <div className='balance-content-detail-item-data-status'>
-                <img src={ProgressIcon} alt='' height={'40px'} width={'90px'}/>
+                <img src={ProgressIcon} alt='' height={'20px'} width={'90px'}/>
                 <div className='balance-content-detail-item-data-desc-text'>6%</div>
               </div>
               <div className='balance-content-detail-item-data-info'>Always see your earnings updates</div>

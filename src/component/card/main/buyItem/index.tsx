@@ -21,6 +21,10 @@ const BuyItem = () => {
       })})
   }
 
+  const getChecked = ()=>{
+    return data.filter(item => item.isClicked).length;
+  }
+
   const handleCheckbox = (v: boolean) =>{
     return v ? <FontAwesomeIcon icon={faSquareCheck} color='#5659D9' width={'20px'}/> : 
     <FontAwesomeIcon icon={faSquare} color='grey' width={'20px'}/>
@@ -45,7 +49,7 @@ const BuyItem = () => {
           </div>
           <div className='buy-item-content-info'>
             <div className='buy-item-content-info-detail'>
-              <div className='buy-item-content-info-detail-status'>0/3</div> 
+              <div className='buy-item-content-info-detail-status'>{getChecked()}/{data?.length}</div> 
               <div className='buy-item-content-info-detail-text buy-item-font'>Shopping list</div>
               </div>
             <div className='buy-item-content-info-button'>+ Add an item</div>

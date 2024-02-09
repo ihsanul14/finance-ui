@@ -26,6 +26,15 @@
     gap: 1rem;
 }
 
+.balance-content-detail-item{
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 80%;
+}
+
+
 .balance-content-detail-item-data{
     flex: 0;
     display: flex;
@@ -36,7 +45,6 @@
 
 .balance-content-detail-item-chart{
     flex: 1;
-    bottom: 0;
 }
 
 .balance-content-detail-item-data-money{
@@ -67,6 +75,6 @@
 }
 
 .balance-content-detail-item-data-desc-text{
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
 }

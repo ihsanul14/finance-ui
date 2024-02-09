@@ -33,8 +33,6 @@
 
 .analytics-content-chart{
     display: flex;
-    border-radius: 100%;
-    background: green;
 
 }
 
@@ -42,19 +40,19 @@
     flex: 1;
     position: relative;
     z-index: 1;
-    background: blue;
+    background: #505BE0;
     border-top-left-radius: 100%
 }
 
 .analytics-content-chart-orange{
     flex: 1;
     border-top-left-radius: 20%;
-    background: orange;
+    background: #FDA60C;
 }
 
 .analytics-content-chart-red{
     flex: 1;
-    background: red;
+    background: #DF644E;
 }
 
 .analytics-content-chart-grey{
@@ -88,4 +86,45 @@
     width: 8px;
     border-radius: 100%;
     align-self: center;
+}
+
+.analytics-base-chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 150px 150px 0 0;
+    background: linear-gradient(to right, #505BE0 0%,#505BE0 25%, #FDA60C 25%, #FDA60C 75%, #DF644E 75%,#DF644E 90%, #F0F0F0 75%, #F0F0F0 100%);
+    margin-bottom: 1rem;
+}
+
+.analytics-base-chart-center{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 290px;
+    border-radius: 150px 150px 0 0;
+    background: white;
+    margin-top: 0.5rem;
+
+}
+
+.analytics-base-chart-center-text{
+    font-size: 24px;
+    font-weight: 600;
+    flex: 1;
+    margin-top: 20%;
+    text-align: center;
+}
+.analytics-base-chart-center-text-secondary{
+    font-size: 18px;
+    font-weight: 600;
+    flex: 1;
+    color: #D5D8DC;
+    text-align: center;
 }

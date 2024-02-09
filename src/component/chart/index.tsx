@@ -33,8 +33,8 @@ const Chart = () =>{
         <div className='chart'>
             <div className='chart-content'>
                 <div className='chart-content-filter-container'>
-                    <div className='chart-content-filter-box'>
-                        <div className='chart-content-filter' onClick={handleFilter}>
+                    <div className='chart-content-filter-box' onClick={handleFilter}>
+                        <div className='chart-content-filter'>
                             Filter
                         </div>
                         <div>
