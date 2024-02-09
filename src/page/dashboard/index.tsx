@@ -24,7 +24,7 @@ const Home = () => {
                     <div className='home-component-item-detail-content'>
                         <Balance/>
                     </div>
-                    <div className='home-component-item-detail-content'>
+                    <div className='home-component-item-detail-content' style={{alignContent:'flex-end'}}>
                         <Visa />
                     </div>
                     <div className='home-component-item-detail-content'>
@@ -41,7 +41,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='home-component-item' style={{flex:0}}>
+            <div className='home-component-item-info'>
                 <Info />
             </div>
             

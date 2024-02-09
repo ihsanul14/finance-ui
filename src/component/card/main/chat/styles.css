@@ -3,6 +3,8 @@
     flex-direction: column;
     border-radius: 1rem;
     font-size: 12px;
+    width: 450px;
+    /* height: 300px; */
 }
 
 .chat-content{
@@ -16,6 +18,7 @@
     font-size: 16px;
     font-weight: 600;
     text-align: left;
+    margin-bottom: 1rem;
 }
 
 .chat-content-action{
@@ -28,42 +31,86 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .chat-content-box-sender{
     flex: 1;
+    display: flex;
+    right: 0;
     text-align: right;
-    background: plum;
     padding: 0.25rem;
-    max-width: 60%;
+    max-width: 80%;
+    align-self: flex-end;
+    gap: 0.2rem;
+}
+
+.chat-content-box-sender-text{
+    flex: 1;
+    text-align: right;
+    background: #505FDC;
+    padding: 0.35rem;
+    max-width: 80%;
+    align-self: flex-end;
+    border-radius: 8px 8px 0px 8px;
+    color: white;
 }
 
 .chat-content-box-receiver{
     flex: 1;
-    justify-content: flex-start;
+    display: flex;
+    align-self: flex-start;
+    text-align: left;
+    gap: 0.5rem;
+    max-width: 80%;
+}
+
+.chat-content-box-receiver-text{
+    flex: 1;
+    align-self: flex-start;
     text-align: left;
     background: #f4f4f4;
-    padding: 0.25rem;
-    max-width: 60%;
+    padding: 0.35rem;
+    max-width: 80%;
 }
 
 .chat-content-action-input{
     flex: 1;
     border: none;
     background: #f4f4f4;
-    min-height: 100px;
+    padding: 0.5rem;
+    outline: none;
 }
 
 .chat-content-action-button{
     flex: 1;
     display: flex;
-    margin-right: 1rem;
     padding: 0.25rem;
-    gap: 2rem;
 }
 
-.chat-content-action-button-item{
+.chat-content-action-button-icon-box{
     flex: 1;
+    display: flex;
+    margin-right: 1rem;
+    padding: 0.25rem;
+    gap: 4px;
+    width: 70%;
+}
+
+.chat-content-action-button-item-box{
+    flex: 0;
+    background: #505FDC;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 8px;
+    text-wrap: nowrap;
+    min-width: 70px;
+}
+
+
+.chat-content-action-button-item{
+    text-align: center;
+    color: white;
 }
 
 

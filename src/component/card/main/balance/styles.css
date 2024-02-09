@@ -12,6 +12,14 @@
     padding: 1rem;
 }
 
+.balance-content-title{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #4f4f4f;
+    margin-bottom: 0.5rem;
+}
+
 .balance-content-detail{
     flex: 1;
     display: flex;
@@ -19,27 +27,46 @@
 }
 
 .balance-content-detail-item-data{
+    flex: 0;
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
+    width: 80%;
+}
+
+.balance-content-detail-item-chart{
+    flex: 1;
+    bottom: 0;
 }
 
 .balance-content-detail-item-data-money{
     font-size: 20px;
     font-weight: 600;
+    text-align: left;
+    margin-bottom: 0.5rem;
 }
 
 .balance-content-detail-item-data-desc{
-    font-size: 8px;
-    color: #4f4f4f;
+    color: #D5D3DD;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .balance-content-detail-item-data-status{
     font-size: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .balance-content-detail-item-data-info{
-    font-size: 8px;
-    color: #4f4f4f;
+    font-size: 12px;
+    color: #D5D3DD;
+    text-align: left;
 }
 
+.balance-content-detail-item-data-desc-text{
+    font-size: 14px;
+    text-align: left;
+}

@@ -38,7 +38,7 @@ const Transaction = () => {
             <Divider />
             <div className='transaction-content-box-data'> 
               <div className='transaction-content-box-data-item'>
-                <img src={x.photo} alt='' height={'30px'}/>
+                <img src={x.photo} alt='' height={'50px'}/>
                 <div className='transaction-content-box-data-item-text'>
                   <div className='transaction-content-box-data-item-name'>{x.name}</div>
                   <div className='transaction-content-box-data-item-date'>{x.date}</div>

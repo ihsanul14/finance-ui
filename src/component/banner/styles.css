@@ -4,6 +4,7 @@
     border-bottom-left-radius: 1rem;
     text-align: left;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .banner-content{
@@ -18,8 +19,9 @@
 
 .banner-content-text-title{
     flex:1;
-    font-size: 18px;
-    font-style: 500;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 .banner-content-text-container{

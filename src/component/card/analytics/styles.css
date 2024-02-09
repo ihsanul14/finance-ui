@@ -3,6 +3,7 @@
     flex-direction: column;
     border-radius: 1rem;
     font-size: 12px;
+    width: 300px;
 }
 
 .analytics-content{
@@ -31,8 +32,6 @@
 
 .analytics-content-chart{
     display: flex;
-    height: 100px;
-    width: 100px;
     border-radius: 100%;
     background: green;
 

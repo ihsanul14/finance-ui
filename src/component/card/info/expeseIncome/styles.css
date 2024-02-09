@@ -45,7 +45,7 @@
     flex: 1;
     font-weight: 500;
     font-size: 10px;
-    color: grey
+    color: #D5D3DD
 }
 
 .expense-income-content-item-text-left{
@@ -86,14 +86,14 @@
 
 .expense-income-content-badge-expense{
     background: #505edc;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 75%;
     border-radius: 0.25rem;
 }
 
 .expense-income-content-badge-income{
     background: #FEA80E;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 25%;
     border-radius: 0.25rem;
 }

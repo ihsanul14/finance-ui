@@ -1,4 +1,8 @@
+import SenderIcon from '../../../../assets/main/chat-sender-photo.png'
+import ReceiverIcon from '../../../../assets/main/chat-receiver-photo.png'
 import './styles.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperclip, faSmileBeam} from '@fortawesome/free-solid-svg-icons';
 
 const Chat = () => {
   return (
@@ -8,18 +12,26 @@ const Chat = () => {
           <div className='chat-content-title'>Esther Howard</div>
           <div className='chat-content-box'>
             <div className='chat-content-box-sender'>
-              Are you ready?
+              <div className='chat-content-box-sender-text'>
+                Are you ready?
+              </div>
+              <img src={SenderIcon} alt='' height={'30px'}/>
             </div>
-            <div className='chat-content-box-receiver'> 
-              I have prepared anything
+            <div className='chat-content-box-receiver'>
+              <img src={ReceiverIcon} alt='' height={'30px'}/> 
+              <div className='chat-content-box-receiver-text'>I have prepared anything</div>
             </div>
           </div>
           <div className='chat-content-action'>
-            <input type="text" className='chat-content-action-input' placeholder='Type your message ...' />
+            <textarea className='chat-content-action-input' placeholder='Type your message ...' />
             <div className='chat-content-action-button'>
-              <div className='chat-content-action-button-item'>Emoji</div>
-              <div className='chat-content-action-button-item'>Attach</div>
-              <div className='chat-content-action-button-item'>Send now</div>
+              <div className='chat-content-action-button-icon-box'>
+                <div className='chat-content-action-button-item-icon'><FontAwesomeIcon icon={faSmileBeam}/></div>
+                <div className='chat-content-action-button-item-icon'><FontAwesomeIcon icon={faPaperclip}/></div>
+              </div>
+              <div className='chat-content-action-button-item-box'>
+                <div className='chat-content-action-button-item'>Send now</div>
+              </div>
             </div>
           </div>
         </div>

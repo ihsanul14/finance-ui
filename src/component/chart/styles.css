@@ -8,14 +8,28 @@
     gap: 0.25rem;
 }
 
-.chart-content-filter{
+.chart-content-filter-box{
     display: flex;
-    flex: 1;
+    align-items: center;
+    background: #F6F5F8;
+    width: 80px;
+    margin-left: 60%;
+    border-radius: 8px;
+    margin-top: 0.25rem;
+}
+
+.chart-content-filter{
+    flex: 0;
+    padding: 0.5rem;
     justify-content: flex-end;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .chart-content-detail{
     display: flex;
+    /* height: 100%;
+    width: 100%; */
 }
 
 .chart-content-data{
@@ -28,12 +42,14 @@
     flex:1;
     display: flex;
     gap: 0.1rem;
-    padding: 0.2rem;
+    padding: 0.5rem;
 }
 .chart-content-data-detail-item{
     flex:1;
     display: flex;
     flex-direction: column;
+    /* width: 80px; */
+    height: 100%;
 }
 
 .chart-content-data-bar{
@@ -59,6 +75,7 @@
 .chart-content-data-legend{
     flex: 0;
     text-align: left;
+    font-size: 12px;
 }
 
 .chart-content-y-axis{
@@ -70,4 +87,5 @@
 
 .chart-content-y-axis-item{
     flex: 1;
+    font-size: 12px;
 }

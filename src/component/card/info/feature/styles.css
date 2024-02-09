@@ -54,7 +54,7 @@
 .feature-button{
     border-radius: 10px;
     font-size: 14px;
-    padding: 0.5rem;
-    background: blue;
+    padding: 1rem;
+    background: #505FDC;
     color: #e0e0e0;
 }

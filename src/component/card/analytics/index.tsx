@@ -1,3 +1,4 @@
+import GaugeIcon from '../../../assets/main/gauge.png'
 import './styles.css'
 
 const Analytics = () => {
@@ -15,15 +16,8 @@ const Analytics = () => {
           </div>
           <div className='analytics-content-data'>
             <div className='analytics-content-chart'>
-              <div className='analytics-content-chart-blue'></div>
-              <div className='analytics-content-chart-orange'></div>
-              <div className='analytics-content-chart-red'></div>
-              <div className='analytics-content-chart-grey'></div>
+              <img src={GaugeIcon} alt={'gauge'} height={'160px'}/>
             </div>
-            <div className='analytics-content-chart-info'>
-                <div>90%</div>
-                <div>Done</div>
-              </div>
             <div className='analytics-content-chart-legend'>
               <div className='analytics-content-chart-legend-item'>
                 <div className='analytics-content-chart-legend-item-bullet' style={{background:'blue'}}></div>
